@@ -1,0 +1,396 @@
+/*LOGIN*/
+.login-bg{
+    background-image: url(../img/login_bg.svg);
+    width: 90%;
+    height:1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -400px;
+    left: -360px;
+    z-index: -1;
+    
+}
+
+.logincard{
+    width:400px;
+    height: 280px;
+    top:160px;
+    left: 700px;
+    border-radius: 0px;
+    box-shadow: 5px 20px 60px #00000020;
+    position: relative;
+}
+
+/*LOGO*/
+.logo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 110px;
+    left: 235px;
+}
+
+/*TEXT*/
+.text1{
+    position: absolute;
+    top: 430px;
+    left: 230px;
+        
+}
+
+@media screen and (max-width:480px){
+    .login-bg{
+        width: 133%;
+        height: 700px;
+        top: -180px;
+        left: -173px;        
+    }
+    .logo{
+        left: 127px;
+        top: 80px;
+        width: 154px;
+    }
+    .logincard{
+        left: 370px;
+        top: 56px;
+        width: max-content;
+    }
+    .card-body-login{
+        width: max-content;
+    }
+    .text1{
+        top: 275px;
+        left: 136px;
+        font-size: 19px;
+    }   
+}
+@media screen and (min-width:481px) and (max-width:600px) {
+    .login-bg{
+        width: 120%;
+        height: 120vh;
+        left: -165px;
+        top: -170px;
+    }
+    .logo{
+        width: 190px;
+        left: 180px;
+        top: 134px;
+    }
+    .text1{
+        left: 190px;
+        top: 380px;
+    }
+    .logincard{
+        width: max-content;
+        left: 518px;
+    }
+    .card-body-login{
+        width: max-content;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .login-bg{
+        width: 100%;
+        height: 114vh;
+        top: -185px;
+        left: -160px;
+    }
+    .logo{
+        left: 165px;
+        top: 100px;
+    }
+    .text1{
+        top: 380px;
+        left: 210px;
+        font-size: 24px;
+    }
+    .logincard{
+        width: max-content;
+        left: 530px;
+        top:100px;
+    }
+    .card-body-login{
+        width: max-content;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .login-bg{
+        width: 100%;
+        height: 900px;
+        left: -195px;
+        top: -190px;
+    }
+    .logo{
+        left: 160px;
+        top: 125px;
+    }
+    .logincard{
+        width: max-content;
+        left:510px;
+    }
+    .card-body-login{
+        width: max-content;
+    }
+    .text1{
+        top: 415px;
+        left: 170px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1170px){
+    .login-bg{
+        width: 100%;
+        height: 85vh;
+        left: -200px;
+        top: -300px;
+    }
+    .logo{
+        left: 290px;
+        top: 165px;
+        width: 260px;
+    }
+    .text1{
+        left: 300px;
+        top: 450px;
+    }
+}
+/*END LOGIN*/
+/*START RESEARCHER NEW REQUEST*/
+.nse-100vh{
+    height: 100vh;
+}
+.nse-h5{
+    color:#A0A0A0;
+}
+.nse-h5:hover{
+    background-color: #EEEBFF;
+}
+.nse-h5:active{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #7e84a3;
+}
+/* below one to just show "New Request" title by default active */
+.active{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #6755D8;
+}
+.nse-res-title{
+    font: normal normal medium 32px/42px IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#nse-res-logo{
+    width: 200px;
+    height: 30px;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    #nse-res-logo{
+        width:150px;
+        height: 23px;
+    }
+}
+.nse-sidebar ul li a{
+    text-align: left;
+    font-family: IBM Plex sans;
+    letter-spacing: 0.14px;
+    color: #171725;
+    opacity: 1;
+    width: 200px;
+    font-weight: bold;
+}
+.nse-sidebar ul li a:hover {
+    background-color: #E8E8E8;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #171725;
+}
+.nse-mr-auto{
+    margin-right: auto;
+}
+.nse-res-dropdown a{
+    color: #707070;
+    margin-bottom: -15px;
+}
+.nse-small-text{
+    margin-left: 8px;
+    color: #AEAEAE;
+}
+.nse-ext-form-title{
+    font: normal normal normal IBM Plex Sans;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1;
+}
+.nse-ext-form-text{
+    text-align: center;
+    width: min-content;
+    float: right;
+    font-family:IBM Plex Sans;
+    letter-spacing: 0.17px;
+    color: #131523;
+    
+}
+.nse-ext-form-icon{
+    width:55px;
+    height: 58px;
+}
+.nse-card-hover:hover{
+    background-color: #6755D8;
+    cursor: pointer;
+}
+.nse-card-hover:hover p{
+    color: white;
+}
+/*
+.nse-card-hover:hover .b{
+    fill: white;
+}
+.nse-card-hover:hover .a{
+    fill: white;
+}*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .nse-md-pt{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .nse-pt{
+        padding-top: 15px;
+    }
+}
+
+/* STRAT MEMBERSHIP EXTENSION FORM (additional css) */
+.nse-mem-ext-title{
+    font: normal normal normal IBM Plex Sans;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 1;
+}
+.nse-mem-ext-active-title{
+    font: normal normal normal IBM Plex Sans;
+    letter-spacing: 0.03px;
+    color: #392E7D;
+    opacity: 1;
+    font-weight: bold;
+}
+.nse-form-bg{
+    background-color: #F4F7FC;
+}
+#nse-expiryDate{
+    border: 2px solid #AEAEAE;
+}
+#nse-extendedDate{
+    background: url(../img/calendar-today.svg) no-repeat scroll 7px 7px;
+    background-position-x: right;
+    background-position-y: center;
+    border: 2px solid #009BFF;
+    background-origin: content-box;
+
+}
+.nse-expDate-text{
+    margin-left:80px;
+}
+.nse-date-duration{
+    margin-top: -28px;
+}
+@media screen and (max-width:576px){
+    .nse-date-duration{
+        margin-top: -8px;
+    }
+}
+.nse-expDate-digit{
+    color: #7E84A3;
+    letter-spacing: 0.93px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.nse-extDate-text{
+    margin-left:100px;
+}
+.nse-extDate-digit{
+    color: #392E7D;
+    letter-spacing: 0.93px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.nse-star-icon{
+    color: #E22028;
+    font-weight: bold;
+}
+.nse-comment{
+    margin-left: 38px;
+}
+.nse-comment textarea{
+    border: 2px solid #AEAEAE;
+}
+.nse-comment ::placeholder{
+    color: #AEAEAE;
+    font-size: 14px;
+    padding:1px 1px 1px 2px ;
+}
+.nse-submit-btn{
+    background-color: #5A48C9;
+    color:#FFFFFF;
+    width: 250px;
+    height: 45px;
+    margin-left: 38px;
+    margin-top: 40px;
+}
+@media screen and (max-width:576px){
+    .nse-comment textarea{
+        width: -webkit-fill-available;
+    }
+}
+@media screen and (min-width:576px) and (max-width:937px){
+    #nse-expiryDate {
+        width: 140px;
+    } 
+    .nse-expDate-text {
+        margin-left: 40px;
+    }
+    .nse-date-duration {
+        margin-top: -8px;
+    }
+    .nse-comment textarea{
+        width: -webkit-fill-available;
+    }
+    #nse-extendedDate {
+        width: 140px;
+    } 
+    .nse-extDate-text {
+        margin-left: 60px;
+    }
+    
+}
+@media screen and (min-width:576px){
+    .nse-toggle-icon{
+        display: none;
+    }
+    .nse-close-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .nse-sidebar{
+        width: 40%;
+        height: 100vh;
+        position: absolute;
+        z-index: 490;
+        background: #fff;
+        left: 0px;
+        box-shadow: 5px 10px 18px #888888;
+        display: none;
+    }
+    .nse-close-icon{
+        position: absolute;
+        right:30px;
+        background-color: black;
+        color: white;
+        padding:10px;
+        
+    }
+}

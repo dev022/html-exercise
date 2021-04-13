@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Styles--> 
+        <meta charset="utf-8">
+        <link href="css/bootstrap.min.css" rel="stylesheet">        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm border">
+            <ul class="navbar-nav nse-mr-auto">
+                <img src="img/logo-2.svg" id="nse-res-logo">
+                <h4 class="px-3 nse-res-title">Researcher Dashboard</h4>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown nse-res-dropdown">
+                    <a class="nav-link dropdown-toggle pt-0" data-toggle="dropdown" href="#"><b>Ken Adams</b></a>
+                    <small class="nse-small-text">Researcher</small>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+              
+        </nav>
+            
+        <div class="container-fluid nse-sidebar">
+            <div class="row nse-100vh">
+                <div class="col-sm-3 col-md-2 pr-3">
+                    <nav class="navbar navbar-light">
+                        <ul class="navbar-nav pt-3">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i class="px-2"><img src="img/ic_home.svg"></i>Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i class="px-2"><img src="img/ic_inbox.svg"></i>Requests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><i class="px-2"><img src="img/ic_group.svg" width="28px" height="28px"></i>Groups</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-md-10 bg-light">
+                    <div class="d-flex p-3 mt-4">
+                        <div class="mx-3"><h5 class="nse-h5">Request Tracker</h5></div>
+                        <div><h5 class="nse-h5 active">New Request</h5></div>
+                    </div>
+                    
+                    <div class="row px-3">
+                        <div class=" col-sm-10">
+                            <div class="card nse-100vh">
+                                <div class="card-body">
+                                    <p class="nse-ext-form-title">Extension Forms</p>
+                                    
+                                    <div class="row">
+                                        <div class="col-9 col-md-5 col-lg-4">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/user-add.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <!--<svg class="pt-2 nse-ext-form-icon" xmlns="http://www.w3.org/2000/svg" width="64.97" height="58.473" viewBox="0 0 64.97 58.473"><defs><style>.a,.b{fill:#7e84a3;}.a{fill-rule:evenodd;}</style></defs><path class="a" d="M16.994,28.988A12.994,12.994,0,1,0,4,15.994,12.994,12.994,0,0,0,16.994,28.988Zm0-6.5a6.5,6.5,0,1,0-6.5-6.5A6.5,6.5,0,0,0,16.994,22.491Z" transform="translate(2.497 -3)"/><path class="b" d="M31.236,18.5a3.248,3.248,0,0,1,3.248,3.248V41.236h6.5V21.745A9.745,9.745,0,0,0,31.236,12H11.745A9.745,9.745,0,0,0,2,21.745V41.236H8.5V21.745A3.248,3.248,0,0,1,11.745,18.5Z" transform="translate(-2 17.236)"/><path class="b" d="M22.5,7h6.5v6.5h6.5v6.5h-6.5v6.5H22.5v-6.5H16V13.5h6.5Z" transform="translate(29.479 5.994)"/></svg>
+                                                    -->
+                                                    <p class="nse-ext-form-text pt-2">Membership Extension</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 col-md-5 col-lg-4 nse-pt">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/smartphone-ram.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <p class="nse-ext-form-text pt-2">Resources Extension</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 col-md-5 col-lg-4 nse-md-pt nse-pt">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/template.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <p class="nse-ext-form-text pt-2">Software Extension</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 col-md-5 col-lg-4 mt-lg-4 nse-md-pt nse-pt">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/database.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <p class="nse-ext-form-text pt-2">Data Extension</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <p class="nse-ext-form-title mt-5">Upload/download Forms</p>
+                                    <div class="row mt-3">
+                                        <div class="col-9 col-md-5 col-lg-4">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/software-upload.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <p class="nse-ext-form-text pt-2">External Assets&nbsp;Upload</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 col-md-5 col-lg-4 nse-pt">
+                                            <div class="card nse-card-hover">
+                                                <div class="card-body pt-1 pb-0">
+                                                    <span><img src="img/software-download.svg" class="pt-2 nse-ext-form-icon"></span>
+                                                    <p class="nse-ext-form-text pt-2">Analysis/Results Download</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!--Scripts-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
